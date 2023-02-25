@@ -1,0 +1,16 @@
+{
+    "name": "tdevly/zrouter",
+    "description": "A simple router",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ZRouter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RonildoFh",
+            "email": "ronildodev@gmail.com"
+        }
+    ]
+}
