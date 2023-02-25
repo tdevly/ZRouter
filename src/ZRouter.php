@@ -111,13 +111,4 @@ class ZRouter
         $instance = $injectZRouter ? new $route['controller']($this) : new $route['controller']();
         return call_user_func([$instance, $route['controller_method']], $args);
     }
-
-    public function dd($content)
-    {
-        echo '<br><h1>Debug</h1>';
-        echo '<pre>';
-        print_r($content);
-        echo '<pre><br>';
-        exit();
-    }
 }
