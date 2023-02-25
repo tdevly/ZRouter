@@ -1,5 +1,6 @@
 {
     "name": "tdevly/zrouter",
+    "version": "0.0.1-alpha",
     "description": "A simple router",
     "type": "library",
     "autoload": {
@@ -16,6 +17,5 @@
     "license": "MIT",
     "require": {
         "php": "^7.0"
-    },
-    "version": "0.0.1-alpha"
+    }
 }
