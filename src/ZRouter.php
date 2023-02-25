@@ -100,7 +100,6 @@ class ZRouter
         $injectZRouter = false;
         if ($numberOfParameters) {
             $parameters = $reflector->getConstructor()->getParameters();
-
             for ($i = 0; $i < $numberOfParameters; $i++) {
                 if ($parameters[$i]->name == 'zrouter') {
                     $injectZRouter = true;
