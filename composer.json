@@ -1,21 +1,21 @@
 {
-    "name": "tdevly/zrouter",
-    "version": "0.0.1-alpha",
-    "description": "A simple router",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "ZRouter\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "tdevly",
-            "email": "ronildodev@gmail.com"
-        }
-    ],
-    "license": "MIT",
-    "require": {
-        "php": "^7.0 | ^8.0"
-     }
+  "name": "tdevly/zrouter",
+  "version": "0.0.1-alpha",
+  "description": "A simple router",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "ZRouter\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "tdevly",
+      "email": "ronildodev@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0"
+  }
 }
