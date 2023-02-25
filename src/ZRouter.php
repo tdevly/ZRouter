@@ -97,8 +97,8 @@ class ZRouter
         }
 
         $numberOfParameters = $reflector->getConstructor()->getNumberOfParameters();
+        $injectZRouter = false;
         if ($numberOfParameters) {
-            $injectZRouter = false;
             $parameters = $reflector->getConstructor()->getParameters();
 
             for ($i = 0; $i < $numberOfParameters; $i++) {
