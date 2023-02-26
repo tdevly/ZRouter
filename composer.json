@@ -18,5 +18,5 @@
   "require": {
     "php": ">=8.0"
   },
-  "minimum-stability": "alpha"
+  "minimum-stability": "stable"
 }
