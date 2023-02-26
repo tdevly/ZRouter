@@ -1,6 +1,6 @@
 {
   "name": "tdevly/zrouter",
-  "version": "0.0.1-alpha",
+  "version": "1.0",
   "description": "A simple router",
   "type": "library",
   "autoload": {
@@ -18,5 +18,5 @@
   "require": {
     "php": ">=8.0"
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "stable"
 }
