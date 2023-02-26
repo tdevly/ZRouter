@@ -50,8 +50,8 @@ trait ZRouterManager
 
                 if (isset($request)) {
                     $request = json_decode($request, true);
+                    $args = array_merge($args, $request);
                 }
-                $args = array_merge($args, $request);
 
                 return $this->execute($this->routes[$route], $args);
             }
