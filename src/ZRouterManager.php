@@ -43,14 +43,12 @@ trait ZRouterManager
                         'message' => 'Not allowed'
                     ];
                 }
-
-                $args = [];
                 unset($matches[0]);
                 preg_match_all($pattern, $route, $matches1);
                 $args = array_combine($matches1[1], $matches);
 
+                $request = json_decode($request, true);
                 if (isset($request)) {
-                    $request = json_decode($request, true);
                     $args = array_merge($args, $request);
                 }
 
