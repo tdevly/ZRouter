@@ -44,6 +44,7 @@ trait ZRouterManager
                     ];
                 }
 
+                $args = [];
                 unset($matches[0]);
                 preg_match_all($pattern, $route, $matches1);
                 $args = array_combine($matches1[1], $matches);
